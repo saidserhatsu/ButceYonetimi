@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.142,=C:\Users\serhat\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.811,C:\Users\serhat\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\serhat\Documents\Embarcadero\Studio\Projects\mobilvize\vize.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.648,=C:\Users\serhat\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.024,C:\Users\serhat\Documents\Embarcadero\Studio\Projects\anaekran.fmx=C:\Users\serhat\Documents\Embarcadero\Studio\Projects\mobilvize\anaekran.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.554,=C:\Users\serhat\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.197,C:\Users\serhat\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\serhat\Documents\Embarcadero\Studio\Projects\anaekran.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.062,=C:\Users\serhat\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.024,C:\Users\serhat\Documents\Embarcadero\Studio\Projects\anaekran.pas=C:\Users\serhat\Documents\Embarcadero\Studio\Projects\mobilvize\anaekran.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.197,C:\Users\serhat\Documents\Embarcadero\Studio\Projects\Unit2.fmx=C:\Users\serhat\Documents\Embarcadero\Studio\Projects\anaekran.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.811,C:\Users\serhat\Documents\Embarcadero\Studio\Projects\Unit2.fmx=C:\Users\serhat\Documents\Embarcadero\Studio\Projects\mobilvize\vize.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.073,=C:\Users\serhat\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.558,C:\Users\serhat\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\serhat\Documents\Embarcadero\Studio\Projects\mobilvize\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.267,C:\Users\serhat\Documents\Embarcadero\Studio\Projects\mobilvize\anaekran.pas=</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android64="sanal" Android="sanal"/>
+	</ActiveMobileDevice>
+</BorlandProject>

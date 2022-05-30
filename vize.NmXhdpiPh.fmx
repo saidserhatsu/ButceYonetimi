@@ -1,0 +1,20 @@
+inherited FormGiris_NmXhdpiPh: TFormGiris_NmXhdpiPh
+  ClientHeight = 615
+  DesignerMasterStyle = 0
+  inherited Label1: TLabel
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+  end
+  inherited Edit1: TEdit
+    Size.Height = 32.000000000000000000
+  end
+  inherited ListBox1: TListBox
+    Viewport.Width = 313.000000000000000000
+    Viewport.Height = 201.000000000000000000
+  end
+  inherited Edit2: TEdit
+    Size.Height = 32.000000000000000000
+  end
+  inherited ComboBox1: TComboBox
+    Size.Height = 32.000000000000000000
+  end
+end

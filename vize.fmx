@@ -1,0 +1,167 @@
+object FormGiris: TFormGiris
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 500
+  ClientWidth = 400
+  Fill.Color = claSteelblue
+  Fill.Kind = Solid
+  Position = Designed
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Button1: TButton
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 40.000000000000000000
+    Position.Y = 96.000000000000000000
+    Size.Width = 313.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Text = 'ONAYLA'
+    TextSettings.Font.Size = 18.000000000000000000
+    OnClick = Button1Click
+  end
+  object Label1: TLabel
+    StyledSettings = [Family]
+    Position.Y = 8.000000000000000000
+    Size.Width = 401.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 36.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.FontColor = claWhite
+    TextSettings.HorzAlign = Center
+    Text = 'B'#220'T'#199'E Y'#214'NET'#304'M'#304
+    TabOrder = 4
+  end
+  object Label2: TLabel
+    StyledSettings = [Family, Style]
+    Position.X = 48.000000000000000000
+    Position.Y = 64.000000000000000000
+    Size.Width = 153.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 16.000000000000000000
+    TextSettings.FontColor = claWhite
+    Text = 'Ayl'#305'k gelirinizi giriniz'
+    TabOrder = 8
+  end
+  object Edit1: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 10
+    Position.X = 208.000000000000000000
+    Position.Y = 64.000000000000000000
+    Size.Width = 145.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object ColorKeyAnimation1: TColorKeyAnimation
+    Duration = 0.200000002980232200
+    Keys = <>
+    PropertyName = 'Fill.Color'
+    StartFromCurrent = False
+  end
+  object ListBox1: TListBox
+    Position.X = 40.000000000000000000
+    Position.Y = 240.000000000000000000
+    Size.Width = 313.000000000000000000
+    Size.Height = 201.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    DisableFocusEffect = True
+    DefaultItemStyles.ItemStyle = ''
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    Viewport.Width = 309.000000000000000000
+    Viewport.Height = 197.000000000000000000
+  end
+  object Button2: TButton
+    StyledSettings = [Family, Size, Style]
+    Position.X = 256.000000000000000000
+    Position.Y = 448.000000000000000000
+    Size.Width = 96.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Gelir ekle'
+    TextSettings.FontColor = claWhite
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    StyledSettings = [Family, Size, Style]
+    Position.X = 256.000000000000000000
+    Position.Y = 472.000000000000000000
+    Size.Width = 96.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'Harcama yap'
+    TextSettings.FontColor = claWhite
+    OnClick = Button3Click
+  end
+  object Label4: TLabel
+    StyledSettings = [Family, Style]
+    Position.X = 40.000000000000000000
+    Position.Y = 176.000000000000000000
+    Size.Width = 313.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 16.000000000000000000
+    TextSettings.FontColor = claWhite
+    Text = 'Kalan para:'
+    TabOrder = 6
+  end
+  object Label3: TLabel
+    StyledSettings = [Family, Style]
+    Position.X = 40.000000000000000000
+    Position.Y = 144.000000000000000000
+    Size.Width = 313.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 16.000000000000000000
+    TextSettings.FontColor = claWhite
+    Text = 'Toplam harcanan para:'
+    TabOrder = 7
+  end
+  object Edit2: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 9
+    Position.X = 40.000000000000000000
+    Position.Y = 456.000000000000000000
+    Size.Width = 73.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Label5: TLabel
+    StyledSettings = [Family, Style]
+    Position.X = 40.000000000000000000
+    Position.Y = 208.000000000000000000
+    Size.Width = 313.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 16.000000000000000000
+    TextSettings.FontColor = claWhite
+    Text = 'Ayl'#305'k d'#305#351#305' gelir: '
+    TabOrder = 5
+  end
+  object ComboBox1: TComboBox
+    Items.Strings = (
+      'Elektirik Faturas'#305
+      'Su Faturas'#305
+      'Do'#287'algaz Faturas'#305
+      'Market'
+      #304'nternet Faturas'#305
+      'Telefon Faturas'#305
+      'Kredi Kart'#305' '#214'demesi'
+      'Kira '#214'demesi'
+      'Di'#287'er Giderler')
+    Position.X = 120.000000000000000000
+    Position.Y = 456.000000000000000000
+    Size.Width = 129.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 12
+  end
+end
